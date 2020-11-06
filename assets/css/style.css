@@ -1,0 +1,40 @@
+#profilePic {
+    grid-area: image;
+   max-width: 95%;
+   height: auto;
+    margin: 5px;
+    padding: 5px
+}
+body {
+    background-color: #e8e8e8;
+    padding: 10px;
+}
+#logo {
+    background-color: #59aaa5;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 100px 400px;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "image p1"
+        "p2 p2";
+        padding: 5px;
+}
+#about1 {
+    grid-area: p1;
+    margin: 5px;
+    padding: 6px;
+}
+#about2 {
+    grid-area: p2;
+    margin-top: 0px;
+    padding: 5px
+}
+#aboutMe {
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+}
