@@ -39,6 +39,14 @@ body {
     top: 100px;
     left: 50px;
 }
+#contact {
+    width: 500px;
+    padding: 10px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
 #aboutFooter {
     background-color: #666666;
     width: 100%;
@@ -172,5 +180,25 @@ ul {
   }
   #portfolioTitle {
       margin-left: 5px
+  }
+  #contactInfo {
+      width: 95%;
+      padding: 5px;
+      margin: 5px;
+  }
+  label, textarea {
+      padding: 5px;
+      margin: 5px
+  }
+  textarea {
+      width: 95%;
+      height: 125px
+  }
+  button {
+      background-color: #59aaa5;
+      color: white;
+      margin: 5px;
+      border: none;
+      padding: 5px
   }
 
