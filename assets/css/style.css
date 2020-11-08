@@ -119,31 +119,58 @@ ul {
 
   #projects {
       display: grid;
-      grid-template-columns: 350px 350px;
+      grid-template-columns: 210px 210px;
       grid-template-rows:auto auto;
       grid-template-areas: 
       "three two"
       "one";
-      position: absolute;
-      top: 100px;
-      left: 50px
+      
+  }
+  #projectsDiv {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    background-color: white;
+    padding: 10px;
+    width: 420px
   }
 
-  #img1 {
+  #img1, #img2, #img3 {
       display: block;
-      height: 200px;
+      width: 200px;
       grid-area: one;
       margin: 10px;
   }
-  #img2 {
-    display: block;
-    height: 200px;
-    grid-area: two;
-    margin: 10px;
+  #firstImage {
+      position: relative;
+      text-align: center;
+  }
+  #secondImage {
+    position: relative;
+    text-align: center;
 }
-#img3 {
-    display: block;
-    height: 200px;
-    grid-area: three;
-    margin: 10px;
+#thirdImage {
+    position: relative;
+    text-align: center;
 }
+  .textOver {
+      position: absolute;
+      bottom: 20px;
+      background-color: #59aaa5;
+      width: 95%;
+      margin-left: 10px;
+      height: 45px
+  }
+  .projectName {
+      text-align: center;
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 15px;
+      color: white
+  }
+  #portfolioTitle {
+      margin-left: 5px
+  }
+
